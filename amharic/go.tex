@@ -1,0 +1,40 @@
+\documentclass[12pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{listings-golang} % import this package after listings
+\usepackage{color}
+\lstset{ % add your own preferences
+    frame=single,
+    basicstyle=\footnotesize,
+    keywordstyle=\color{red},
+    numbers=left,
+    numbersep=5pt,
+    showstringspaces=false, 
+    stringstyle=\color{blue},
+    tabsize=4,
+    language=Golang % this is it !
+}
+\usepackage{fontspec}
+\begin{document}
+\fontspec{AbyssinicaSIL}
+\huge ስለዚህ መጽሐፍ
+\normalsize
+\hline
+\vskip 0.5in
+\huge ፍቃድ
+\normalsize
+
+The Little Go Book  በ Attribution-NonCommercial-ShareAlike 4.0 አለም አቀፍ ፍቃድ የተዘጋጀ ነው። ለዚህ መጽሐፍ ምንም አይነት ክፍያ መፈጸም የለበትም ። ይሄንን መጽሐፍ በነጻ መባዛት ፣ ማሰራጨት ፣ ይዘቱን መቀየር እንዲሁም ማስነበብ ይቻላል ። ነገር ግን ለጸሃፊው ካርል ሰጉዊን እውቅና መስጠት ይኖርቦታል ፤ መጽሐፉን ለንግድ አላማ አይጠቀሙበት።
+
+
+
+\begin{lstlisting}
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello World!")
+}
+\end{lstlisting}
+\end{document}
