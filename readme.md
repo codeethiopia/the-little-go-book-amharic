@@ -1,4 +1,4 @@
-##ስለዚህ መጽሐፍ##
+## ስለዚህ መጽሐፍ ##
 [The Little Go Book](http://openmymind.net/The-Little-Go-Book/) በነጻ የተዘጋጀ የጎ ፕሮግራሚንግ መተዋወቂያ መጽሐፍ ነው።
 
 ፀሐፊው  [ካርል ሰግዊን](http://openmymind.net) ነው ።
